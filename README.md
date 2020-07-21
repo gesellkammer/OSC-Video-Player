@@ -101,3 +101,19 @@ Where:
      Displays usage information and exits.
 
 ```
+
+## Build
+
+Given an installation of openFrameworks into folder `OF`, put this project into `OF/apps/myApps`
+
+### Unix Make
+
+```bash
+make
+```
+
+### QtCreator
+
+* edit OSC-Video-Player.qbs and set `of_root` to `OF` (give an absolute path)
+* set the import path of ofApp to `OF/libs/openFramworksCompiled/project/qtcreator/ofApp.qbs`
+
